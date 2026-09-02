@@ -35,6 +35,8 @@
   show link: set text(fill: blue)
   show link: it => underline(it, stroke: 1pt)
 
+  set terms(separator: [: ])
+
   show divider: set line(stroke: 1.5pt)
 
   body

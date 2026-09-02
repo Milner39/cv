@@ -1,9 +1,10 @@
-#import "src/format.typ": format, base-size
+#import "src/format.typ": base-size, format
 #show: format
 
 #import "src/private.typ": candidate
 #import "src/components/heading/index.typ": heading
 #import "src/components/section.typ": section
+#import "src/components/keyed-list.typ": keyed-list
 
 
 
@@ -14,11 +15,20 @@
 ]
 
 #section[Skills][
-  #strong[Front-end:] React, Angular, Vue, Svelte, HTML, JavaScript, TypeScript, CSS, SCSS. \
-
-  #strong[Back-end:] Java, Node, Deno, Rust, Python, Solidity. \
-
-  #strong[Other:] Git, SVN, Jenkins, Puppeteer, Vite.
+  #keyed-list((
+    (
+      "Front-end",
+      "React, Angular, Vue, Svelte, HTML, JavaScript, TypeScript, CSS, SCSS.",
+    ),
+    (
+      "Back-end",
+      "Java, Node, Deno, Rust, Python, Solidity.",
+    ),
+    (
+      "Other",
+      "Git, SVN, Jenkins, Puppeteer, Vite.",
+    ),
+  ))
 ]
 
 #section[Work Experience][
