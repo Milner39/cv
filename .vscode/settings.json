@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": true,
+  "tinymist.compileStatus": "enable",
+  "tinymist.lint.enabled": true,
+  "tinymist.lint.when": "onSave",
+  "tinymist.preview.refresh": "onSave",
+  "tinymist.previewFeature": "enable"
+}
