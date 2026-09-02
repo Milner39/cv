@@ -59,30 +59,30 @@
 
 #section[Education][
   #education(
-    "BSc (Hons) Digital and Technology Solutions - Software Engineering",
-    "2025 - 2026",
     "Newcastle College",
+    "2025 - 2026",
+    "BSc (Hons) Digital and Technology Solutions - Software Engineering",
   )[
     Completed Year 1 with a first before transferring provider.
   ]
 
   #education(
-    "A Levels",
-    "2023 - 2025",
     "Gosforth Academy",
+    "2023 - 2025",
+    "A Levels",
   )[
     Mathematics: A\*, Physics: A, Computer Science: A
   ]
 
   #education(
-    "GCSEs",
+    "Newcastle School for Boys",
     "2021 - 2023",
-    "Newcastle School for Boys"
+    "GCSEs",
   )[
     9 GCSEs including Mathematics (9), Computer Science (9), Physics (9), Biology (9), and Chemistry (8).
   ]
 ]
 
 #section[Projects][
-  
+
 ]
