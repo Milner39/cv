@@ -1,5 +1,11 @@
+#import "private.typ": candidate
+
+
 #let format(body) = {
-  set document()
+  set document(
+    author: candidate.full-name,
+    title: candidate.full-name + " - Apprentice Software Engineer CV"
+  )
 
 
   set page(
@@ -15,6 +21,13 @@
     font: "Arial",
     size: 10pt
   )
+
+
+  show title: set align(center)
+  show title: set text(size: 2em, weight: "bold")
+
+
+  show heading.where(level: 1): set text(size: 1.2em, weight: "regular")
 
 
 
