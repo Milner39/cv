@@ -2,7 +2,7 @@
 #show: format
 
 #import "src/private.typ": candidate
-#import "src/components/heading/index.typ": heading
+#import "src/components/heading/index.typ": cv-heading
 #import "src/components/section.typ": section
 #import "src/components/keyed-list.typ": keyed-list
 #import "src/components/work-experience.typ": work-experience
@@ -11,7 +11,7 @@
 
 
 
-#heading()
+#cv-heading()
 
 #section[Summary][
   Software Engineer with 1 year of professional experience specialising in front-end web development using Vue and Angular, alongside 5 years of full-stack development experience through freelance work during education. Currently completing a degree apprenticeship in software engineering.
