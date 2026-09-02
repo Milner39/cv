@@ -3,7 +3,7 @@
 
 
 
-#let education(title, date, institution, body) = {
+#let education(institution, date, title, body) = {
   set grid(
     row-gutter: base-size(0.8),
   )
@@ -14,9 +14,9 @@
       rows: (auto, auto),
 
       //
-      [#strong[#title]], align(right)[#strong[#date]],
+      [#strong[#institution]], align(right)[#strong[#date]],
       //
-      [#institution]
+      [#title]
       //
     )
 
