@@ -1,13 +1,8 @@
 #import "../../format.typ": base-size, format
 #show: format
 
+#import "../../utils.typ": clean-link
 #import "../../private.typ": candidate
-
-
-
-#let clean-link(url) = {
-  url.replace("https://", "").replace("http://", "").replace("www.", "")
-}
 
 
 

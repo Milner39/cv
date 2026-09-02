@@ -7,6 +7,7 @@
 #import "src/components/keyed-list.typ": keyed-list
 #import "src/components/work-experience.typ": work-experience
 #import "src/components/education.typ": education
+#import "src/components/project.typ": project
 
 
 
@@ -15,6 +16,7 @@
 #section[Summary][
   Software Engineer with 1 year of professional experience specialising in front-end web development using Vue and Angular, alongside 5 years of full-stack development experience through freelance work during education. Currently completing a degree apprenticeship in software engineering.
 ]
+
 
 #section[Skills][
   #keyed-list((
@@ -32,6 +34,7 @@
     ),
   ))
 ]
+
 
 #section[Work Experience][
   #work-experience(
@@ -56,6 +59,7 @@
     )
   ]
 ]
+
 
 #section[Education][
   #education(
@@ -83,6 +87,24 @@
   ]
 ]
 
-#section[Projects][
 
+#section[Projects][
+  #project(
+    "Typst Powered CV Builder",
+    "2026",
+    "Typst, Nix Flakes",
+    "https://github.com/Milner39/cv",
+  )[
+    #list(
+      [
+        Built a modular CV building tool in Typst using reusable components for headings, sections, work experience, education, projects, and structured lists.
+      ],
+      [
+        Created a reproducible Nix development environment with Typst and required fonts configured for consistent local builds.
+      ],
+      [
+        The CV you are reading now was actually created using only this tool.
+      ]
+    )
+  ]
 ]
