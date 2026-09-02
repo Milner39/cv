@@ -8,7 +8,6 @@
     it,
   )
 
-  [
-    #title(context document.author.first())
-  ]
+  set align(center)
+  title(context document.author.first())
 }

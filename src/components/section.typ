@@ -11,7 +11,7 @@
   )
 
   show divider: it => block(
-    above: base-size(0.4),
+    above: base-size(0.6),
     below: 0pt,
     it,
   )
@@ -19,6 +19,6 @@
   [
     #heading(title)
     #divider()
-    #block(above: base-size(1.4), below: base-size(1.4), [#body])
+    #block(above: base-size(1), below: base-size(1.6), [#body])
   ]
 }

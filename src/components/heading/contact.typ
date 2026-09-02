@@ -22,6 +22,5 @@
 
 #let contact(spacing: base-size(0.8)) = {
   set align(center)
-
   stack(spacing: spacing, [#candidate.full-area], [#contact-details])
 }
