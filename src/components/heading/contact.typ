@@ -20,12 +20,11 @@
   "  " + sym.bar.v + "  ",
 )
 
-#let contact() = {
+#let contact(spacing: 1em) = {
   set align(center)
 
-  [
-    #candidate.full-area
-
-    #contact-details
-  ]
+  stack(spacing: spacing,
+    [#candidate.full-area],
+    [#contact-details],
+  )
 }

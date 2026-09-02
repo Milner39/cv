@@ -6,7 +6,9 @@
 
 
 
-#let heading() = [
-  #cv-title()
-  #contact()
-]
+#let heading() = {
+  [
+    #cv-title(below: 0.6em)
+    #contact(spacing: 1em)
+  ]
+}

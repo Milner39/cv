@@ -21,7 +21,7 @@
   )
 
   show title: set align(center)
-  show title: set text(size: 2em, weight: "bold")
+  show title: set text(size: 1.8em, weight: "bold")
 
   show heading.where(level: 1): set text(size: 1.2em, weight: "regular")
 
