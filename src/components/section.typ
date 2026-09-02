@@ -5,20 +5,22 @@
 
 #let section(title, body) = {
   show heading: it => block(
-    above: base-size(),
-    below: base-size(),
+    above: 0pt,
+    below: 0pt,
     it,
   )
 
   show divider: it => block(
-    above: base-size(),
-    below: base-size(),
+    above: base-size(0.4),
+    below: 0pt,
     it,
   )
 
   [
     #heading(title)
     #divider()
-    #body
+    #block(above: base-size(1.4), below: base-size(1.4),
+      [#body]
+    )
   ]
 }

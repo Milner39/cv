@@ -33,7 +33,9 @@
   show heading.where(level: 1): it => upper(it)
 
   show link: set text(fill: blue)
-  show link: it => underline(it, extent: 1pt)
+  show link: it => underline(it, stroke: 1pt)
+
+  show divider: set line(stroke: 1.5pt)
 
   body
 }
