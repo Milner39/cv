@@ -1,4 +1,4 @@
-#import "../../format.typ": format, base-size
+#import "../../format.typ": base-size, format
 #show: format
 
 #import "../../private.typ": candidate
@@ -23,8 +23,5 @@
 #let contact(spacing: base-size(0.8)) = {
   set align(center)
 
-  stack(spacing: spacing,
-    [#candidate.full-area],
-    [#contact-details],
-  )
+  stack(spacing: spacing, [#candidate.full-area], [#contact-details])
 }

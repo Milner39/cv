@@ -1,4 +1,4 @@
-#import "../../format.typ": format, base-size
+#import "../../format.typ": base-size, format
 #show: format
 
 #import "./title.typ": cv-title

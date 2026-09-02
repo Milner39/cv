@@ -1,4 +1,4 @@
-#import "../format.typ": format, base-size
+#import "../format.typ": base-size, format
 #show: format
 
 
@@ -19,8 +19,6 @@
   [
     #heading(title)
     #divider()
-    #block(above: base-size(1.4), below: base-size(1.4),
-      [#body]
-    )
+    #block(above: base-size(1.4), below: base-size(1.4), [#body])
   ]
 }
