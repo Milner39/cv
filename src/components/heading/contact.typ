@@ -1,4 +1,4 @@
-#import "../../format.typ": format
+#import "../../format.typ": format, base-size
 #show: format
 
 #import "../../private.typ": candidate
@@ -20,7 +20,7 @@
   "  " + sym.bar.v + "  ",
 )
 
-#let contact(spacing: 1em) = {
+#let contact(spacing: base-size(0.8)) = {
   set align(center)
 
   stack(spacing: spacing,

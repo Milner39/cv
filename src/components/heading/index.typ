@@ -1,4 +1,4 @@
-#import "../../format.typ": format
+#import "../../format.typ": format, base-size
 #show: format
 
 #import "./title.typ": cv-title
@@ -7,8 +7,8 @@
 
 
 #let heading() = {
-  [
-    #cv-title(below: 0.6em)
-    #contact(spacing: 1em)
-  ]
+  block(below: base-size(2), [
+    #cv-title(below: base-size(1.2))
+    #contact(spacing: base-size(0.8))
+  ])
 }

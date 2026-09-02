@@ -1,4 +1,4 @@
-#import "src/format.typ": format
+#import "src/format.typ": format, base-size
 #show: format
 
 #import "src/private.typ": candidate

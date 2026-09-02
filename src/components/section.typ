@@ -1,17 +1,18 @@
-#import "../format.typ": format
+#import "../format.typ": format, base-size
 #show: format
 
 
 
 #let section(title, body) = {
   show heading: it => block(
-    above: 1em,
-    below: 0em,
+    above: base-size(),
+    below: base-size(),
     it,
   )
 
   show divider: it => block(
-    above: 0.5em,
+    above: base-size(),
+    below: base-size(),
     it,
   )
 

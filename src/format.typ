@@ -1,6 +1,12 @@
 #import "private.typ": candidate
 
 
+#let base-size(..args) = {
+  let mult = args.pos().at(0, default: 1)
+  mult * 10pt
+}
+
+
 #let format(body) = {
   set document(
     author: candidate.full-name,
@@ -17,13 +23,14 @@
 
   set text(
     font: "Arial",
-    size: 10pt,
+    size: base-size(),
   )
 
   show title: set align(center)
-  show title: set text(size: 1.8em, weight: "bold")
+  show title: set text(size: base-size(2), weight: "bold")
 
-  show heading.where(level: 1): set text(size: 1.2em, weight: "regular")
+  show heading.where(level: 1): set text(size: base-size(1.2), weight: "bold")
+  show heading.where(level: 1): it => upper(it)
 
   show link: set text(fill: blue)
   show link: it => underline(it, extent: 1pt)
