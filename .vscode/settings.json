@@ -8,4 +8,5 @@
   "tinymist.typstExtraArgs": [
     "main.typ"
   ],
+  "tinymist.formatterMode": "typstyle",
 }

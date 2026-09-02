@@ -5,13 +5,19 @@
 
 
 
+#let clean-link(url) = {
+  url.replace("https://", "").replace("http://", "").replace("www.", "")
+}
+
+
+
 #let contact-details = (
   link("tel:" + candidate.phone, candidate.phone),
   link("mailto:" + candidate.email, candidate.email),
-  link(candidate.github),
-  link(candidate.linkedin),
+  link(candidate.github, clean-link(candidate.github)),
+  link(candidate.linkedin, clean-link(candidate.linkedin)),
 ).join(
-  " " + sym.bar.v + " ",
+  "  " + sym.bar.v + "  ",
 )
 
 #let contact() = {

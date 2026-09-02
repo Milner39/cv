@@ -8,7 +8,10 @@
 )
 
 
-#let candidate = candidate + (
-  full-name: candidate.name.join(" "),
-  full-area: candidate.area.join(", "),
+#let candidate = (
+  candidate
+    + (
+      full-name: candidate.name.join(" "),
+      full-area: candidate.area.join(", "),
+    )
 )
