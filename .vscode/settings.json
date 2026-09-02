@@ -4,5 +4,8 @@
   "tinymist.lint.enabled": true,
   "tinymist.lint.when": "onSave",
   "tinymist.preview.refresh": "onSave",
-  "tinymist.previewFeature": "enable"
+  "tinymist.previewFeature": "enable",
+  "tinymist.typstExtraArgs": [
+    "main.typ"
+  ],
 }
